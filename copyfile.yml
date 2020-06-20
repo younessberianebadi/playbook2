@@ -5,4 +5,4 @@
     - name: copy war onto tomcat server
       copy:
         src: /opt/playbook/webapp/target/webapp.war
-        dest: /opy/apache-tomcat-8.5.32/webapps
+        dest: /opt/apache-tomcat-8.5.32/webapps
